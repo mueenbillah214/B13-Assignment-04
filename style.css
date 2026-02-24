@@ -214,3 +214,19 @@ body {
   color: #3b82f6;
   margin-bottom: 10px;
 }
+
+/* Delete button */
+.delete-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #9ca3af;
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  color: #f43f5e;
+}   

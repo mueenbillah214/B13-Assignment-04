@@ -61,4 +61,10 @@ function toggleStatus(id,newStatus){
     }
 }
 
+function deleteJob(id){
+    jobs = jobs.filter(j=>j.id!==id);
+    updateUI();
+}
+
+//Init 
 updateUI(); 
