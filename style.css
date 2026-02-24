@@ -230,3 +230,23 @@ body {
 .delete-btn:hover {
   color: #f43f5e;
 }   
+
+
+/* Responsive */
+@media(max-width:768px){
+    .stat-card h2{
+    font-size:32px;
+  }
+  .dashboard {
+    flex-direction: column;
+  }
+
+  .tabs {
+    flex-wrap: wrap;
+  }
+
+  .job-card {
+    padding: 15px;
+  }
+
+} 
