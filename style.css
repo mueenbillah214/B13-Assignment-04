@@ -134,3 +134,83 @@ body {
   color: #9ca3af;
   margin-bottom: 10px;
 }
+.badge {
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid;
+}
+.badge-not-applied {
+  background: #eff6ff;
+  color: #1d4ed8;
+  border-color: #dbeafe;
+}
+.badge-interview {
+  background: #ecfdf5;
+  color: #047857;
+  border-color: #d1fae5;
+}
+.badge-rejected {
+  background: #fff1f2;
+  color: #be123c;
+  border-color: #ffe4e6;
+}
+
+/* Buttons inside card */
+.job-card button {
+  padding: 5px 12px;
+  font-size: 11px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 1px solid;
+  margin-right: 8px;
+  transition: all 0.2s;
+}
+
+.interview-btn {
+  border-color: #10b981;
+  color: #10b981;
+  background: #fff;
+}
+
+.interview-btn.active {
+  background: #10b981;
+  color: #fff;
+}
+
+.rejected-btn {
+  border-color: #f43f5e;
+  color: #f43f5e;
+  background: #fff;
+}
+
+.rejected-btn.active {
+  background: #f43f5e;
+  color: #fff;
+}
+
+
+
+
+/* Empty state */
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background: #fff;
+  border-radius: 12px;
+  border: 2px dashed #e5e7eb;
+  text-align: center;
+}
+
+.empty-state .icon {
+  font-size: 40px;
+  color: #3b82f6;
+  margin-bottom: 10px;
+}

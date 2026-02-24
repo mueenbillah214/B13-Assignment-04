@@ -53,5 +53,12 @@ function filterTab(tab){
     document.getElementById(`tab-${tab}`).classList.add('active');
     updateUI();
 }
+function toggleStatus(id,newStatus){
+    const index = jobs.findIndex(j=>j.id===id);
+    if(index!==-1){
+        jobs[index].status = jobs[index].status===newStatus?'all':newStatus;
+        updateUI();
+    }
+}
 
 updateUI(); 
