@@ -43,3 +43,48 @@ body {
   font-weight:bold;
   margin-top:10px;
 }
+/* Color for each dashboard */
+#total-count{
+  color:#2563eb; /* Blue */
+}
+
+#interview-count{
+  color:#16a34a; /* Green */
+}
+
+#rejected-count{
+  color:#dc2626; /* Red */
+}
+
+
+
+
+
+
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tab-btn {
+  padding: 8px 20px;
+  border: 1px solid #d1d5db;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.tab-btn:hover {
+  background-color: #f3f4f6;
+}
+
+.tab-btn.active {
+  background-color: #2563eb;
+  color: #fff;
+  border-color: #2563eb;
+}
